@@ -1,10 +1,11 @@
 
 
 import { Component } from "react";
-import Nav from "./nav";
+
 import Data from "../Data/DB.json"; 
 import Modal from "react-modal"; 
 import Pagination from "./Pagination"; 
+import Nav from "./nav";
 
 class MembresBloques extends Component {
   constructor(props) {

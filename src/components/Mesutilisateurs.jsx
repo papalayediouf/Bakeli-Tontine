@@ -20,7 +20,7 @@ class MesUtilisateurs extends Component {
     const members = Data || [];
     this.setState({
       membersData: members,
-      selectedMember: members[0] || null, // Sélectionner le premier membre par défaut
+      selectedMember: members[0] || null, 
     });
   }
 

@@ -237,7 +237,7 @@ class Dashboard extends Component {
               <div className="col-12 col-md-6 col-lg-3">
                 <div className="card border border-0 shadow">
                   <div className="card-body">
-                    <h6 className="card-subtitle mb-2 text-body-secondary">Montant Restant</h6>
+                    <h6 className="card-subtitle mb-2 text-body-secondary">Montant Restants</h6>
                     <p className="card-text fw-semi-bold">
                       {membersData.reduce((total, member) => total + member.montant_restant, 0).toFixed(2)} €
                     </p>
