@@ -1,0 +1,103 @@
+[
+    {
+        "Nom": "Alice Dupont",
+        "montant_cotise": 150.00,
+        "montant_restant": 50.00,
+        "statut": "valide",
+        "montant_total_cotise": 200.00,
+        "Date": "2024-01-15",
+        "date_de_fin": "2024-12-31",
+        "Progression": "75%"
+    },
+    {
+        "Nom": "Bob Martin",
+        "montant_cotise": 75.00,
+        "montant_restant": 25.00,
+        "statut": "en attente",
+        "montant_total_cotise": 100.00,
+        "Date": "2024-02-20",
+        "date_de_fin": "2024-10-20",
+        "Progression": "50%"
+    },
+    {
+        "Nom": "Claire Lefevre",
+        "montant_cotise": 200.00,
+        "montant_restant": 0.00,
+        "statut": "terminé",
+        "montant_total_cotise": 200.00,
+        "Date": "2024-03-10",
+        "date_de_fin": "2024-12-10",
+        "Progression": "90%"
+    },
+    {
+        "Nom": "David Moreau",
+        "montant_cotise": 50.00,
+        "montant_restant": 50.00,
+        "statut": "en cours",
+        "montant_total_cotise": 100.00,
+        "Date": "2024-04-05",
+        "date_de_fin": "2024-12-05",
+        "Progression": "30%"
+    },
+    {
+        "Nom": "Elodie Bernard",
+        "montant_cotise": 300.00,
+        "montant_restant": 0.00,
+        "statut": "valide",
+        "montant_total_cotise": 300.00,
+        "Date": "2024-05-12",
+        "date_de_fin": "2024-12-12",
+        "Progression": "100%"
+    },
+    {
+        "Nom": "François Girard",
+        "montant_cotise": 20.00,
+        "montant_restant": 80.00,
+        "statut": "en attente",
+        "montant_total_cotise": 100.00,
+        "Date": "2024-06-18",
+        "date_de_fin": "2024-12-18",
+        "Progression": "20%"
+    },
+    {
+        "Nom": "Géraldine Morel",
+        "montant_cotise": 120.00,
+        "montant_restant": 30.00,
+        "statut": "valide",
+        "montant_total_cotise": 150.00,
+        "Date": "2024-07-22",
+        "date_de_fin": "2024-12-22",
+        "Progression": "60%"
+    },
+    {
+        "Nom": "Hugo Renault",
+        "montant_cotise": 10.00,
+        "montant_restant": 90.00,
+        "statut": "en cours",
+        "montant_total_cotise": 100.00,
+        "Date": "2024-08-15",
+        "date_de_fin": "2024-12-15",
+        "Progression": "10%"
+    },
+    {
+        "Nom": "Isabelle Fontaine",
+        "montant_cotise": 250.00,
+        "montant_restant": 0.00,
+        "statut": "bloqué",
+        "montant_total_cotise": 250.00,
+        "Date": "2024-09-30",
+        "date_de_fin": "2024-12-30",
+        "Progression": "80%"
+    },
+    {
+        "Nom": "Julien Petit",
+        "montant_cotise": 40.00,
+        "montant_restant": 60.00,
+        "statut": "en attente",
+        "montant_total_cotise": 100.00,
+        "Date": "2024-10-01",
+        "date_de_fin": "2024-12-01",
+        "Progression": "40%"
+    }
+]
+

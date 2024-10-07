@@ -1,0 +1,10 @@
+
+
+{
+    "prenom": "John",
+    "nom": "Doe",
+    "statut": "Admin",
+    "email": "john.doe@example.com",
+    "image": "path/to/profile/image.jpg"
+  }
+  

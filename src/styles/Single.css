@@ -1,0 +1,21 @@
+
+
+.Sidebar{
+    background: #093545;
+    width: 250px;
+    height: 100vh;
+}
+
+.bg-dropdown{
+    background-color: #093545 !important ;
+}
+.dropdown-item{
+    color: white !important;
+    
+}
+.dropdown-item:hover{
+    background-color: #20DF7F !important;
+
+    color: black !important;
+
+}
