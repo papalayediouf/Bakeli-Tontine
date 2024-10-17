@@ -1,7 +1,7 @@
 
 
 import { Component } from "react";
-// import Nav from "./nav";
+import Nav from "./nav";
 import Data from "../Data/DB.json"; 
 import Pagination from "./Pagination"; 
 import  '../styles/Mesutilisateur.css'
@@ -67,7 +67,7 @@ class MesUtilisateurs extends Component {
 
         <div className="shadow-lg d-flex justify-content-between">
           <span className="fw-semibold fs-5">Mes Utilisateurs</span>
-          {/* <Nav /> */}
+          <Nav />
         </div>
         <div className="m-2">
           <h1 className="semibold">Utilisateur</h1>

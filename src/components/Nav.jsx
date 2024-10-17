@@ -1,8 +1,8 @@
-import { Component } from "react";
+
 import Admins from "../assets/Ellipse 9.png";
 
-class Nav extends Component {
-  render() {
+function Nav() {
+ 
     return (
       <>
         <div className="d-flex align-items-center gx-3">
@@ -50,6 +50,6 @@ class Nav extends Component {
       </>
     );
   }
-}
+
 
 export default Nav;

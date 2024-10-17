@@ -6,7 +6,7 @@
 import { Component } from "react";
 
 import "../styles/Dashboard.css";
-// import Nav from "./nav";
+import Nav from "./nav";
 import Data from "../Data/DB.json"; 
 import Pagination from "./Pagination"; 
 
@@ -40,7 +40,7 @@ class Dashboard extends Component {
       <>
         <div className="shadow-lg d-flex justify-content-between">
           <span className="fw-semibold fs-5">Dashboard</span>
-          {/* <Nav /> */}
+          <Nav />
         </div>
         
         <div>

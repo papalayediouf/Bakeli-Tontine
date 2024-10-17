@@ -1,6 +1,6 @@
 
 import { Component } from "react";
-// import Nav from "./nav";
+import Nav from "./nav";
 import Data from "../Data/DB.json"; 
 import Modal from "react-modal"; 
 import Pagination from "./Pagination"; 
@@ -45,7 +45,7 @@ class MembresArchives extends Component {
       <>
         <div className="shadow-lg d-flex justify-content-between">
           <span className="fw-semibold fs-5">Membres Archivés</span>
-          {/* <Nav /> */}
+          <Nav />
         </div>
 
         <div className="container my-4">
