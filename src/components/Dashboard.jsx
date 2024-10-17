@@ -4,8 +4,9 @@
 
 
 import { Component } from "react";
-import Nav from "./nav";
+
 import "../styles/Dashboard.css";
+import Nav from "./nav";
 import Data from "../Data/DB.json"; 
 import Pagination from "./Pagination"; 
 
