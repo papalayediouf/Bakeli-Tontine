@@ -65,8 +65,46 @@ class Cotisation extends Component {
         </div>
 
         <div className="container my-4">
+          <div className="row">
+            <div className="col-12 col-md-6 col-lg-3">
+              <div className="card border border-0 shadow">
+                <div className="card-body">
+                  <span>Membres Actif</span>
+                  <h6 className="card-subtitle mb-2 ">
+                    10 Membres
+                  </h6>
+                 
+                </div>
+              </div>
+            </div>
+            <div className="col-12 col-md-6 col-lg-3">
+              <div className="card border border-0 shadow">
+                <div className="card-body">
+                <span>Membres Bloquer</span>
+                  <h6 className="card-subtitle mb-2 ">
+                   6 Membres
+                  </h6>
+                 
+                </div>
+              </div>
+            </div>
+            <div className="col-12 col-md-6 col-lg-3">
+              <div className="card border border-0 shadow">
+                <div className="card-body">
+                <span>Total effectif</span>
+                  <h6 className="card-subtitle mb-2 ">
+                   90 Membres
+                  </h6>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="container my-4">
           <button className="btn btn-primary" onClick={this.openDetailModal}>
-            Détails des Cotisations
+           . . .
           </button>
 
           <div className="row mt-3">

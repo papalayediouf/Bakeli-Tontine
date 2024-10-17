@@ -34,12 +34,12 @@ class Nav extends Component {
                   </li>
                   <li>
                     <button className="dropdown-item" type="button">
-                      Another action
+                      Modifier Mot de passe
                     </button>
                   </li>
                   <li>
                     <button className="dropdown-item" type="button">
-                      Something else here
+                      Deconnexion
                     </button>
                   </li>
                 </ul>

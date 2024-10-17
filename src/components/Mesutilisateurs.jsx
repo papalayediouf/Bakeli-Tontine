@@ -4,6 +4,7 @@ import { Component } from "react";
 import Nav from "./nav";
 import Data from "../Data/DB.json"; 
 import Pagination from "./Pagination"; 
+import  '../styles/Mesutilisateur.css'
 
 class MesUtilisateurs extends Component {
   constructor(props) {
@@ -52,26 +53,35 @@ class MesUtilisateurs extends Component {
   };
 
   render() {
+
+
     const { membersData, currentPage, itemsPerPage, selectedMember } = this.state;
     const offset = currentPage * itemsPerPage;
     const currentMembers = membersData.slice(offset, offset + itemsPerPage);
 
     return (
       <>
+
+
+
+
         <div className="shadow-lg d-flex justify-content-between">
           <span className="fw-semibold fs-5">Mes Utilisateurs</span>
           <Nav />
         </div>
+        <div className="m-2">
+          <h1 className="semibold">Utilisateur</h1>
+        </div>
 
-        <div className="container my-4">
-          <div className="row">
+        <div className="container my-4 d-flex membresinput ">
+          <div className="row champ2 ">
             <div className="col-12">
-              <div className="card shadow border border-0">
-                <div className="card-body p-0">
-                  <table className="table table-borderless">
+              <div className="card border border-0 h-100">
+                <div className="card-body p-0 h-100">
+                  <table className="table table-borderless h-100 ">
                     <thead>
-                      <tr>
-                        <th scope="col">Nom</th>
+                      <tr className="colm">
+                        <th scope="col " className="colm">Membres</th>
                       </tr>
                     </thead>
                     <tbody>
@@ -89,13 +99,18 @@ class MesUtilisateurs extends Component {
                 </div>
               </div>
             </div>
+            {/* Pagination */}
+          <Pagination
+            pageCount={Math.ceil(membersData.length / itemsPerPage)}
+            onPageChange={this.handlePageChange}
+          />
           </div>
 
           {selectedMember && (
-            <div className="row my-4">
+            <div className="row ">
               <div className="col-12">
-                <div className="card shadow border border-0">
-                  <h5 className="card-header">Informations du Membre</h5>
+                <div className="card champ rounded-0  border border-0 border-start ">
+                  <h5 className="">Informations du Membre</h5>
                   <div className="card-body">
                     <div className="mb-3">
                       <label htmlFor="nom" className="form-label">Nom</label>
@@ -141,8 +156,8 @@ class MesUtilisateurs extends Component {
                         onChange={this.handleInputChange}
                       />
                     </div>
-                    <button
-                      className="btn btn-primary"
+                    <button 
+                      className="btn bagcolor-figma mt-2"
                       onClick={this.handleUpdate}
                     >
                       Mettre à jour
@@ -153,11 +168,7 @@ class MesUtilisateurs extends Component {
             </div>
           )}
 
-          {/* Pagination */}
-          <Pagination
-            pageCount={Math.ceil(membersData.length / itemsPerPage)}
-            onPageChange={this.handlePageChange}
-          />
+          
         </div>
       </>
     );

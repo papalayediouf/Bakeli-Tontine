@@ -189,6 +189,7 @@ import "../styles/Dashboard.css";
 import Data from "../Data/DB.json"; 
 import Pagination from "./Pagination"; 
 
+
 class Dashboard extends Component {
   constructor(props) {
     super(props);
@@ -269,7 +270,9 @@ class Dashboard extends Component {
               <div className="col-12 col-md-6 col-lg-5">
                 <div className="card shadow border border-0">
                   <h5 className="card-header">Statistiques Avancées</h5>
-                  <div className="card-body"></div>
+                  <div className="card-body">
+                 
+                  </div>
                 </div>
               </div>
             </div>

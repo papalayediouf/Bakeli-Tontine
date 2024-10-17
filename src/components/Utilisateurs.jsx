@@ -123,11 +123,11 @@
 
 // export default Utilisateurs;
 
-
 import { Component } from "react";
 import Nav from "./nav";
-import Data from "../Data/DB.json"; // Assurez-vous que le chemin est correct
+import Data from "../Data/DB.json"; 
 import Pagination from "./Pagination";
+
 
 class Utilisateurs extends Component {
   constructor(props) {
@@ -163,6 +163,44 @@ class Utilisateurs extends Component {
         <div className="shadow-lg d-flex justify-content-between">
           <span className="fw-semibold fs-5">Utilisateurs</span>
           <Nav />
+        </div>
+
+        <div className="container my-4">
+          <div className="row">
+            <div className="col-12 col-md-6 col-lg-3">
+              <div className="card border border-0 shadow">
+                <div className="card-body">
+                  <span>Membres Actif</span>
+                  <h6 className="card-subtitle mb-2 ">
+                    10 Membres
+                  </h6>
+                 
+                </div>
+              </div>
+            </div>
+            <div className="col-12 col-md-6 col-lg-3">
+              <div className="card border border-0 shadow">
+                <div className="card-body">
+                <span>Membres Bloquer</span>
+                  <h6 className="card-subtitle mb-2 ">
+                   6 Membres
+                  </h6>
+                 
+                </div>
+              </div>
+            </div>
+            <div className="col-12 col-md-6 col-lg-3">
+              <div className="card border border-0 shadow">
+                <div className="card-body">
+                <span>Total effectif</span>
+                  <h6 className="card-subtitle mb-2 ">
+                   90 Membres
+                  </h6>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
 
         <div className="container my-4">
@@ -247,4 +285,3 @@ class Utilisateurs extends Component {
 }
 
 export default Utilisateurs;
-
